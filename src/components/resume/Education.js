@@ -45,6 +45,12 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Software  Engineer"
+            subTitle="MMC Global - (20/08/2023 - Present)"
+            result="karachi"
+            des="Pakistan's leading IT companies are ready to train you in the most in-demand skills to make your dream job a reality, completely free."
+          />
+          <ResumeCard
             title="MERN Stack Development"
             subTitle="Contour Software  - (02/02/2023 - 25/05/2023)"
             result="karachi"
