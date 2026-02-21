@@ -23,7 +23,7 @@ steps:
 - script: |
     CI=true npm test -- --watchAll=false --passWithNoTests
   displayName: 'Run unit tests'
-
+  
 # Publish build artifacts (optional, for deployment)
 - task: CopyFiles@2
   inputs:
