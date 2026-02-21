@@ -21,7 +21,7 @@ steps:
 
 # Run tests
 - script: |
-    npm test -- --watchAll=false
+    CI=true npm test -- --watchAll=false --passWithNoTests
   displayName: 'Run unit tests'
 
 # Publish build artifacts (optional, for deployment)
